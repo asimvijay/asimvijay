@@ -6,7 +6,13 @@
 # 💫 About Me:
 i am currently working on : Online Help Desk System: Centralized platform for managing campus service requests.<br>Satellite Crop Monitoring: Flask project for monitoring and storing satellite crop indices.<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>🔧 Skills:<br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br><br><br>
 
+### Curious about innovation?
+- What drives you to code beyond just solving problems?
+- How do you stay updated with the latest in MERN stack development?
+- What innovative project are you most proud of?
 
+### About Me
+Feel free to ask me about my journey in web development, what excites me about technology, or how I tackle challenges in my projects.
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.gg/KqPSDe2g) <br> ![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/Syed Hashim) <br> [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/Syed Hashim) <br> [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Hashim Hasan) <br> [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/ZONE HASHIM) 
