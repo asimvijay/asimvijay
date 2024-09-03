@@ -15,8 +15,8 @@ jobs:
       - name: Generate Snake Animation
         uses: Platane/snk@v2.0.1
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: dist/snake.svg
+          github_user_name: asimvijay  # Replace this with your actual GitHub username
+          output: dist/snake.svg
 
       - name: Upload to GitHub
         uses: peaceiris/actions-gh-pages@v3
