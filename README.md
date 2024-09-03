@@ -5,12 +5,26 @@
 # 💫 About Me:
 I am currently working on: Online Help Desk System: Centralized platform for managing campus service requests.<br>Satellite Crop Monitoring: Flask project for monitoring and storing satellite crop indices.<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>
 Feel free to ask me about my journey in web development, what excites me about technology, or how I tackle challenges in my projects..<br><br>
-### Curious about innovation?
-- What drives you to code beyond just solving problems?
-- How do you stay updated with the latest in MERN stack development?
-- What innovative project are you most proud of?
-
-🔧 Skills:<br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br>
+<table>
+  <tr>
+    <td>
+      <div>
+       <h1>Curious about innovation?</h1><br>
+        <ul>
+          <li>What drives you to code beyond just solving problems?</li>
+          <li>How do you stay updated with the latest in MERN stack development?</li>
+          <li>What innovative project are you most proud of?</li>
+        </ul>
+      </div>
+      <div>
+        <p><h1>🔧 Skills:</h1><br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br></p>
+      </div>
+    </td>
+    <td>
+      <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGtkNmVtMHRlOTNvemlnMWthd2RmMXlnNTF1MTBvdXI3YWU4Z3d4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phm65IWH5shLj6798q/giphy.gif" alt="GIF" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/KqPSDe2g) 
