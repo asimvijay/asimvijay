@@ -1,3 +1,8 @@
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!;I'm+Syed+Hashim;A+MERN-STACK+Developer" alt="Typing SVG">
+</h1>
+
+
 # 💫 About Me:
 i am currently working on : Online Help Desk System: Centralized platform for managing campus service requests.<br>Satellite Crop Monitoring: Flask project for monitoring and storing satellite crop indices.<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>🔧 Skills:<br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br><br><br>
 
