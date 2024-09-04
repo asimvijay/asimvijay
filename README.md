@@ -9,7 +9,9 @@ Feel free to ask me about my journey in web development, what excites me about t
   <tr>
     <td>
       <div>
-       <h1>Curious about innovation?</h1><br>
+       <h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
+</h1><br>
         <ul>
           <li>What drives you to code beyond just solving problems?</li>
           <li>How do you stay updated with the latest in MERN stack development?</li>
@@ -17,7 +19,10 @@ Feel free to ask me about my journey in web development, what excites me about t
         </ul>
       </div>
       <div>
-        <p><h1>🔧 Skills:</h1><br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br></p>
+        <p> <h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
+
+</h1><br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br></p>
       </div>
     </td>
     <td>
