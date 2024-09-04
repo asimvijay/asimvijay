@@ -9,49 +9,36 @@ Feel free to ask me about my journey in web development, what excites me about t
   <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Let's+Be+Creative" alt="Typing SVG">
 </h1><br>
 
-<table>
-  <tr>
-    <td>
-      <div>
-        <h1 align="center">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
-        </h1><br>
-        <ul>
-          <li>What drives you to code beyond just solving problems?</li>
-          <li>How do you stay updated with the latest in MERN stack development?</li>
-          <li>What innovative project are you most proud of?</li>
-        </ul>
-      </div>
-      <div>
-        <p>
-          <h1 align="center">
-            <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
-          </h1><br><br>
-          Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>
-          Mobile Development: React Native, Android Studio (Java)<br>
-          Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>
-          Tools: Git, Docker, Thunder Client, Bootstrap<br><br>
-        </p>
-      </div>
-    </td>
-    <td>
-      <img align="right" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="syedmusab125" />
-      <div>
-        <h1 align="center">
-          <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Any+Questions+❓" alt="Typing SVG">
-        </h1>
-         <ul>
-          <li>🔭 I’m currently working on</li>
-          <li>💬 Ask me about **react, Nextjs, Typescript**</li>
-          <li>📫 How to reach me **hashimhasan444@gmail.com**</li>
-            <li>⚡ Fun fact **I enjoy every situation and learn many things**</li>
-        </ul>
-      </div>
-      
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
+</div>
 
-   </td>
-  </tr>
-</table>
+- What drives you to code beyond just solving problems?
+- How do you stay updated with the latest in MERN stack development?
+- What innovative project are you most proud of?
+
+---
+
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
+</div>
+
+**Web Development**: HTML, CSS, JavaScript, React, Angular, .NET MVC  
+**Mobile Development**: React Native, Android Studio (Java)  
+**Backend**: Node.js, Flask, Python, PostgreSQL, Firebase  
+**Tools**: Git, Docker, Thunder Client, Bootstrap
+
+---
+<img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Any+Questions+❓" alt="Typing SVG">
+<div align="center">
+  <img align="right" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="syedmusab125" />
+  
+</div>
+
+- 🔭 I’m currently working on  **Flutter** 
+- 💬 Ask me about **React, Python, Javascript** 
+- 📫 How to reach me **hashimhasan444@gmail.com**
+- ⚡ Fun fact **I enjoy every situation and learn many things** 
 
 
 ## 🌐 Socials:
@@ -63,7 +50,7 @@ Feel free to ask me about my journey in web development, what excites me about t
 &nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/HashimHasan) 
 &nbsp;&nbsp;
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/ZONEHASHIM)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/ZONEHASHIM)<br>
 
 # 💻 Tech Stack:
 ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
