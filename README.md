@@ -5,13 +5,17 @@
 # 💫 About Me:
 I am currently working on: Online Help Desk System: Centralized platform for managing campus service requests.<br>Satellite Crop Monitoring: Flask project for monitoring and storing satellite crop indices.<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>
 Feel free to ask me about my journey in web development, what excites me about technology, or how I tackle challenges in my projects..<br><br>
+ <h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Let's+Be+Creative" alt="Typing SVG">
+</h1><br>
+
 <table>
   <tr>
     <td>
       <div>
-       <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
-</h1><br>
+        <h1 align="center">
+          <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
+        </h1><br>
         <ul>
           <li>What drives you to code beyond just solving problems?</li>
           <li>How do you stay updated with the latest in MERN stack development?</li>
@@ -19,17 +23,36 @@ Feel free to ask me about my journey in web development, what excites me about t
         </ul>
       </div>
       <div>
-        <p> <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
-
-</h1><br><br>Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>Mobile Development: React Native, Android Studio (Java)<br>Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>Tools: Git, Docker, Thunder Client, Bootstrap<br><br></p>
+        <p>
+          <h1 align="center">
+            <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
+          </h1><br><br>
+          Web Development: HTML, CSS, JavaScript, React, Angular, .NET MVC<br>
+          Mobile Development: React Native, Android Studio (Java)<br>
+          Backend: Node.js, Flask, Python, PostgreSQL, Firebase<br>
+          Tools: Git, Docker, Thunder Client, Bootstrap<br><br>
+        </p>
       </div>
     </td>
     <td>
-      <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGtkNmVtMHRlOTNvemlnMWthd2RmMXlnNTF1MTBvdXI3YWU4Z3d4MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Phm65IWH5shLj6798q/giphy.gif" alt="GIF" style="max-width: 100%; height: auto;">
-    </td>
+      <img align="right" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="syedmusab125" />
+      <div>
+        <h1 align="center">
+          <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Any+Questions+❓" alt="Typing SVG">
+        </h1>
+         <ul>
+          <li>🔭 I’m currently working on</li>
+          <li>💬 Ask me about **react, Nextjs, Typescript**</li>
+          <li>📫 How to reach me **hashimhasan444@gmail.com**</li>
+            <li>⚡ Fun fact **I enjoy every situation and learn many things**</li>
+        </ul>
+      </div>
+      
+
+   </td>
   </tr>
 </table>
+
 
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/KqPSDe2g) 
