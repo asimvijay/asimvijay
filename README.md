@@ -29,7 +29,7 @@ Feel free to ask me about my journey in web development, what excites me about t
 **Tools**: Git, Docker, Thunder Client, Bootstrap
 
 ---
-<img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Any+Questions+❓" alt="Typing SVG">
+<img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Any+Questions+❓" alt="Typing SVG"><br>
 <div align="center">
   <img align="right" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="syedmusab125" />
   
