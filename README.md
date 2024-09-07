@@ -3,7 +3,7 @@
 </h1>
 
 # 💫 About Me:
-I am currently working on: Online Help Desk System: Centralized platform for managing campus service requests.<br>Satellite Crop Monitoring: Flask project for monitoring and storing satellite crop indices.<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>
+I am currently working on: Online Help Desk System: Centralized platform for managing campus service requests.<br> Flask project for monitoring .<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>
 Feel free to ask me about my journey in web development, what excites me about technology, or how I tackle challenges in my projects..<br><br>
  <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Let's+Be+Creative" alt="Typing SVG">
