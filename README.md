@@ -37,7 +37,7 @@ Feel free to ask me about my journey in web development, what excites me about t
   
 </div>
 
-- 🔭 I’m currently working on  **Flutter** 
+- 🔭 I’m currently Learning on  **Flutter** 
 - 💬 Ask me about **React, Python, Javascript** 
 - 📫 How to reach me **hashimhasan444@gmail.com**
 - ⚡ Fun fact **I enjoy every situation and learn many things** 
