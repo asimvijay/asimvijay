@@ -55,7 +55,7 @@ export default function RootLayout({
         />
 
         {/* Set the favicon */}
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/me.ico" type="image/x-icon" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
