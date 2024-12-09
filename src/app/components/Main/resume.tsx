@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLanguage } from "react-icons/fa";
+
 
 const Resume = () => {
   return (
