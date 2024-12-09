@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,8 +26,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+            <Head>
+        {/* Preconnect to Google Fonts */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        
+        {/* Load Google Fonts */}
+        <link
+          href="https://fonts.googleapis.com/css2?family=Aboreto&family=Kaushan+Script&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gradient-to-r from-green-400 to-blue-400`}
       >
         {children}
       </body>

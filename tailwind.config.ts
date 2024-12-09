@@ -7,6 +7,9 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      kaushan: ["Kaushan Script"],
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -14,5 +17,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 } satisfies Config;
