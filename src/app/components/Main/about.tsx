@@ -4,7 +4,7 @@ import { FaMobileScreen } from 'react-icons/fa6';
 
 const About = () => {
     return (
-        <div className="about bg-white text-gray-800 min-h-screen flex flex-col items-center py-6 px-8">
+        <div className="about bg-white text-gray-800 min-h-screen flex flex-col items-center py-6 px-8 rounded-lg">
             <h1 className="text-4xl font-bold text-center mb-8">About Me</h1>
 
             {/* Introduction */}
