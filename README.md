@@ -44,8 +44,6 @@ Feel free to ask me about my journey in web development, what excites me about t
 
 
 ## 🌐 Socials:
-[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?logo=portfolio&logoColor=white)](http://hashim-dev.vercel.app/)
-&nbsp;&nbsp;
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/KqPSDe2g) 
 &nbsp;&nbsp;
 [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100079640409737) 
@@ -55,6 +53,8 @@ Feel free to ask me about my journey in web development, what excites me about t
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/HashimHasan) 
 &nbsp;&nbsp;
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/ZONEHASHIM)
+&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?logo=portfolio&logoColor=white)](http://hashim-dev.vercel.app/)
 
 
 # 💻 Tech Stack:
