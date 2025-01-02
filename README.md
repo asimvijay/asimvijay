@@ -52,7 +52,7 @@ Feel free to ask me about my journey in web development, what excites me about t
 &nbsp;&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-hashim-3324a3325/) 
 &nbsp;&nbsp;
-[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/ZONEHASHIM)
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackexchange.com/users/35169442/zone-hashim)
 &nbsp;&nbsp;
 [![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?logo=portfolio&logoColor=white)](http://hashim-dev.vercel.app/)
 
