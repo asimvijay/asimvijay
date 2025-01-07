@@ -1,0 +1,30 @@
+/* Add perspective to the container */
+.grid {
+  perspective: 800px; /* Controls the depth of the 3D effect */
+}
+
+/* Apply 3D transformations to individual cards */
+.project-card {
+  position: relative;
+  transform-style: preserve-3d; /* Necessary for 3D transformations */
+  transition: transform 0.6s ease-out; /* Smooth transition for tilt */
+  will-change: transform; /* Optimize performance */
+  transform-origin: bottom center; /* Pivot the tilt from the bottom edge */
+}
+
+/* Hover effect to tilt the top backward */
+.project-card:hover {
+  transform: rotateX(15deg); /* Tilt the top backward */
+}
+
+/* Ensure content inside the card participates in 3D effect */
+.project-card img, .project-card h3, .project-card p {
+  transform: translateZ(0); /* Ensure content aligns properly */
+  transition: transform 0.3s ease-out; /* Smooth transition for content */
+}
+
+.project-card:hover img,
+.project-card:hover h3,
+.project-card:hover p {
+  transform: translateZ(20px); /* Slightly pop out content on hover */
+}

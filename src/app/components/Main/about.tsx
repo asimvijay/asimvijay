@@ -1,6 +1,6 @@
 import React from 'react';
-import { FaLaptopCode, FaDatabase, FaCodeBranch, FaPencilRuler, FaTrophy, FaLightbulb,} from 'react-icons/fa';
 import { FaMobileScreen } from 'react-icons/fa6';
+import { FaLaptopCode, FaDatabase, FaCodeBranch, FaPencilRuler, FaTrophy, FaLightbulb } from 'react-icons/fa';
 
 const About = () => {
     return (
@@ -9,19 +9,20 @@ const About = () => {
 
             {/* Introduction */}
             <section className="max-w-3xl w-full text-center mb-12">
-                <p className="text-lg">
-                    Hello! Im Hashim, a passionate frontend developer and backend engineer. I specialize in creating intuitive and responsive web applications using modern technologies like React, ASP.NET Core, and more. I have 2+ years of experience in Web Development, and I am constantly learning new tools to improve my skills and provide high-quality solutions to complex problems.
+                <p className="md:text-lg text-sm">
+                    Hello! I'm Hashim, a passionate frontend developer and backend engineer. I specialize in creating intuitive and responsive web applications using modern technologies like React, ASP.NET Core, and more. I have 2+ years of experience in Web Development, and I am constantly learning new tools to improve my skills and provide high-quality solutions to complex problems.
                 </p>
             </section>
 
-            <h1 className='w-full text-xl font-semibold text-center mb-6'>What I Offer 
-                <span className='text-blue-800 font-kaushan text-2xl'>  ?</span></h1>
+            <h1 className="w-full text-xl font-semibold text-center mb-6">What I Offer 
+                <span className="text-blue-800 font-kaushan text-2xl">  ?</span>
+            </h1>
 
             {/* Skills Section */}
-            <div className="grid grid-cols-1 md:grid-cols-2  gap-8 max-w-6xl w-full">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl w-full">
                 {/* Card 1 */}
-                <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-green-500 text-4xl mr-4">
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-green-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaLaptopCode />
                     </div>
                     <div>
@@ -31,8 +32,8 @@ const About = () => {
                 </div>
 
                 {/* Card 2 */}
-                <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-blue-500 text-4xl mr-4">
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-blue-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaDatabase />
                     </div>
                     <div>
@@ -42,8 +43,8 @@ const About = () => {
                 </div>
 
                 {/* Card 3 */}
-                    <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-green-500 text-4xl mr-4">
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-green-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaMobileScreen />
                     </div>
                     <div>
@@ -51,9 +52,10 @@ const About = () => {
                         <p>I can build a beautiful App and scalable SPA using Flutter and React Native.</p>
                     </div>
                 </div>
-                {/* Card 3 */}
-                <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-red-500 text-4xl mr-4">
+
+                {/* Card 4 */}
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-red-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaCodeBranch />
                     </div>
                     <div>
@@ -62,9 +64,9 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Card 4 */}
-                <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-yellow-500 text-4xl mr-4">
+                {/* Card 5 */}
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-yellow-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaPencilRuler />
                     </div>
                     <div>
@@ -73,9 +75,9 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Card 5 */}
-                <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-purple-500 text-4xl mr-4">
+                {/* Card 6 */}
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-purple-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaTrophy />
                     </div>
                     <div>
@@ -84,9 +86,9 @@ const About = () => {
                     </div>
                 </div>
 
-                {/* Card 6 */}
-                <div className="bg-gray-100 rounded-lg p-6 flex items-center shadow-md hover:shadow-lg transition-shadow">
-                    <div className="text-pink-500 text-4xl mr-4">
+                {/* Card 7 */}
+                <div className="bg-gray-100 rounded-lg p-6 flex flex-col md:flex-row items-center shadow-md hover:shadow-lg transition-shadow">
+                    <div className="text-pink-500 text-4xl mr-4 mb-4 md:mb-0">
                         <FaLightbulb />
                     </div>
                     <div>
@@ -94,7 +96,6 @@ const About = () => {
                         <p>Always exploring innovative solutions and building tools for efficiency.</p>
                     </div>
                 </div>
-                
             </div>
         </div>
     );
