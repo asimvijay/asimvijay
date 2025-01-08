@@ -1173,10 +1173,6 @@ body {
   .sm\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
-
-  .sm\:overflow-scroll {
-    overflow: scroll;
-  }
 }
 
 @media (width >= 768px) {
@@ -1190,10 +1186,6 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:overflow-scroll {
-    overflow: scroll;
   }
 
   .md\:p-6 {
