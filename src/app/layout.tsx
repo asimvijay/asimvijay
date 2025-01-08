@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 // SEO Metadata for Hashim's Portfolio
 export const metadata: Metadata = {
-  title: "Hashim&apos;s Portfolio ",
+  title: "Hashims Portfolio ",
   description: "Welcome to Hashim's personal portfolio. Explore projects, achievements, and contact details.",
   keywords: "Hashim, portfolio, web developer, frontend developer, backend developer, React, Next.js, Tailwind CSS",
   openGraph: {
