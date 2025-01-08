@@ -10,7 +10,7 @@ const About = () => {
             {/* Introduction */}
             <section className="max-w-3xl w-full text-center mb-12">
                 <p className="md:text-lg text-sm">
-                    Hello! I'm Hashim, a passionate frontend developer and backend engineer. I specialize in creating intuitive and responsive web applications using modern technologies like React, ASP.NET Core, and more. I have 2+ years of experience in Web Development, and I am constantly learning new tools to improve my skills and provide high-quality solutions to complex problems.
+                    Hello! I&apos;m Hashim, a passionate frontend developer and backend engineer. I specialize in creating intuitive and responsive web applications using modern technologies like React, ASP.NET Core, and more. I have 2+ years of experience in Web Development, and I am constantly learning new tools to improve my skills and provide high-quality solutions to complex problems.
                 </p>
             </section>
 

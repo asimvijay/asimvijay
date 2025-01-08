@@ -414,10 +414,6 @@ img, video {
   height: 3rem;
 }
 
-.h-28 {
-  height: 7rem;
-}
-
 .h-4 {
   height: 1rem;
 }
@@ -452,10 +448,6 @@ img, video {
 
 .w-10\/12 {
   width: 83.3333%;
-}
-
-.w-28 {
-  width: 7rem;
 }
 
 .w-4 {
@@ -572,6 +564,10 @@ img, video {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
 }
 
 .rounded {
@@ -1070,8 +1066,8 @@ body {
 }
 
 @media (width >= 640px) {
-  .sm\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .sm\:grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
 
@@ -1084,12 +1080,12 @@ body {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .md\:grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:overflow-scroll {
+    overflow: scroll;
   }
 
   .md\:p-6 {
@@ -1138,6 +1134,10 @@ body {
 
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:overflow-hidden {
+    overflow: hidden;
   }
 
   .lg\:overflow-y-auto {
