@@ -30,7 +30,7 @@ const Projects = () => {
   return (
     <div className="p-4">
       {/* Navbar for selecting language */}
-      <div className="flex space-x-4 mb-6 md:overflow-scroll lg:overflow-hidden">
+      <div className="flex space-x-4 mb-6 overflow-scroll lg:overflow-hidden ">
         <button onClick={() => setSelectedLanguage("All")} className="p-2 bg-blue-500 text-white rounded">
           All
         </button>
