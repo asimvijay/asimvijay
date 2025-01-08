@@ -2,6 +2,14 @@
 import { useState, useEffect } from "react";
 import Sidebar from "./components/Sidebar/sidebar";
 import Right from "./components/Right/page";
+// Import dynamic from next
+import dynamic from "next/dynamic";
+
+// Dynamically import Lottie with SSR disabled
+const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
+
+// Example animation (replace with your own JSON file)
+import animationData from './animations/earth.json'; 
 
 export default function Home() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -23,9 +31,19 @@ export default function Home() {
 
   // Handle splash screen visibility
   useEffect(() => {
-    const timer = setTimeout(() => setShowSplash(false), 3000); // 3-second splash
+    const timer = setTimeout(() => setShowSplash(false), 5000); // 3-second splash
     return () => clearTimeout(timer); // Cleanup timer
   }, []);
+
+  // Lottie animation options
+  const defaultOptions = {
+    loop: true,
+    autoplay: true, // Loop and autoplay
+    animationData: animationData, // Your Lottie animation data
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice",
+    },
+  };
 
   return (
     <>
@@ -36,8 +54,10 @@ export default function Home() {
           }`}
         >
           <div className="text-center">
-            <h1 className="text-4xl font-bold text-white animate-bounce">
-              Welcome to My Portfolio
+            {/* Lottie Animation */}
+            <Lottie options={defaultOptions} height={100} width={150} />
+            <h1 className="text-4xl font-bold text-white animate-bounce mt-4">
+             Welcome To My Portfolio
             </h1>
             <p className="text-lg text-white mt-4">Loading...</p>
           </div>

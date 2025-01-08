@@ -30,6 +30,7 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "22.10.5",
+    "@types/react-lottie": "^1.2.10",
     "eslint": "^9",
     "eslint-config-next": "15.1.0",
     "postcss": "^8",
