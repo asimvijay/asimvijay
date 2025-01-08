@@ -509,7 +509,7 @@ const Projects = ()=>{
                                                 alt: project.name,
                                                 width: 500,
                                                 height: 300,
-                                                className: "w-full h-48 object-cover rounded-lg mb-4 transition-opacity duration-500 group-hover:opacity-0"
+                                                className: "w-full h-48 object-contain rounded-lg mb-4 transition-opacity duration-500 group-hover:opacity-0"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Main/projects.jsx",
                                                 lineNumber: 63,
@@ -520,7 +520,7 @@ const Projects = ()=>{
                                                 autoPlay: true,
                                                 loop: true,
                                                 muted: true,
-                                                className: "absolute top-0 left-0 w-full h-full object-cover rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+                                                className: "absolute top-0 left-0 w-full h-full object-contain rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-500"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/app/components/Main/projects.jsx",
                                                 lineNumber: 71,

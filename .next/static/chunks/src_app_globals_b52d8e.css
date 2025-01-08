@@ -681,6 +681,10 @@ img, video {
   --tw-gradient-to: #4ade80 var(--tw-gradient-to-position);
 }
 
+.object-contain {
+  object-fit: contain;
+}
+
 .object-cover {
   object-fit: cover;
 }
