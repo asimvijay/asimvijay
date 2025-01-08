@@ -1,5 +1,5 @@
 "use client";
-
+import Image from "next/image";
 import { FC } from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
@@ -20,22 +20,23 @@ const Sidebar: FC<SidebarProps> = ({ theme, setTheme }) => {
       {/* Top Section */}
       <div className="flex flex-col items-center">
         {/* Avatar */}
-        <img
-          src="/images/me.jpg"
-          alt="user avatar"
-          className="h-28 w-28 rounded-full mx-auto border-4 border-blue-400 dark:border-gray-700"
-        />
+        <Image
+        src="/images/me.jpg"
+        alt="user avatar"
+        width={112} // 28 * 4 (height x scale)
+        height={112} // 28 * 4 (width x scale)
+        className="rounded-full mx-auto border-4 border-blue-400 dark:border-gray-700"
+      />
+
 
         {/* Name */}
-        <h3 className="my-3 text-2xl font-bold text-center tracking-wider text-gray-700 dark:text-gray-200">
-          <span
-            className="text-blue-500 dark:text-blue-300"
-            style={{ fontFamily: "'Kaushan Script', cursive" }}
-          >
+        <h3 className="my-3 text-2xl font-bold text-center tracking-wider text-gray-700 dark:text-gray-200 font-kaushan">
+          <span className="text-blue-500 dark:text-blue-300">
             Hashim
-          </span>{" "}
+          </span> 
           Hasan
         </h3>
+
 
         {/* Role */}
         <p className="px-3 py-1 bg-blue-100 dark:bg-gray-700 text-blue-600 dark:text-gray-300 font-medium rounded-full text-center text-sm">

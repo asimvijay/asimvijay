@@ -17,22 +17,21 @@ const geistMono = localFont({
 
 // SEO Metadata for Hashim's Portfolio
 export const metadata: Metadata = {
-  title: "Hashim's Portfolio",
+  title: "Hashim&apos;s Portfolio ",
   description: "Welcome to Hashim's personal portfolio. Explore projects, achievements, and contact details.",
   keywords: "Hashim, portfolio, web developer, frontend developer, backend developer, React, Next.js, Tailwind CSS",
-  author: "Hashim",
   openGraph: {
     type: "website",
-    title: "Hashim's Portfolio",
+    title: "Hashim&apos;s Portfolio",
     description: "Explore Hashim's portfolio showcasing web development projects and skills.",
     url: "https://hashim-portfolio.com", // Replace with actual URL
-    image: "/images/me.jpg", // Path relative to public folder
+    
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hashim's Portfolio",
+    title: "Hashim&apos;s Portfolio",
     description: "Explore Hashim's portfolio showcasing web development projects and skills.",
-    image: "/images/me.jpg", // Path relative to public folder
+   
   },
 };
 
@@ -56,6 +55,9 @@ export default function RootLayout({
 
         {/* Set the favicon */}
         <link rel="icon" href="/me.ico" type="image/x-icon" />
+
+        {/* Add author meta tag manually */}
+        <meta name="author" content="Hashim" />
       </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}

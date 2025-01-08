@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { projects } from './data'; 
 import './main.css';
+import Image from "next/image";
 
 const Projects = () => {
   const [selectedLanguage, setSelectedLanguage] = useState("All");
@@ -29,7 +30,7 @@ const Projects = () => {
   return (
     <div className="p-4">
       {/* Navbar for selecting language */}
-      <div className="flex space-x-4 mb-6">
+      <div className="flex space-x-4 mb-6 overflow-scroll">
         <button onClick={() => setSelectedLanguage("All")} className="p-2 bg-blue-500 text-white rounded">
           All
         </button>
@@ -42,22 +43,28 @@ const Projects = () => {
         <button onClick={() => setSelectedLanguage("Python")} className="p-2 bg-blue-500 text-white rounded">
           Python
         </button>
+        <button onClick={() => setSelectedLanguage("Nextjs")} className="p-2 bg-blue-500 text-white rounded">
+         Nextjs
+        </button>
       </div>
 
       {/* Display projects based on selected language */}
       <div>
         <h2 className="text-2xl font-bold mb-4">Projects in {selectedLanguage}</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {filterProjects(selectedLanguage).map(project => (
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-4 cursor-pointer">
+          {filterProjects(selectedLanguage).map((project) => (
             <div 
               key={project.id} 
               className="project-card p-4 border rounded-lg shadow-lg transition-transform duration-300"
               onClick={() => setSelectedProject(project)}
             >
               <div className="relative group">
-                <img 
+                {/* Replace img with next/image for better performance */}
+                <Image 
                   src={project.images[0]} 
                   alt={project.name} 
+                  width={500} 
+                  height={300} 
                   className="w-full h-48 object-cover rounded-lg mb-4 transition-opacity duration-500 group-hover:opacity-0" 
                 />
                 {project.videos.length > 0 && (
@@ -77,7 +84,7 @@ const Projects = () => {
         </div>
       </div>
 
-      {/* Project Detail Popup */}
+    {/* Project Detail Popup */}
       {selectedProject && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center z-50">
           <div className="bg-white p-6 rounded-lg max-w-lg w-full">
