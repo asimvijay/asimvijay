@@ -79,7 +79,7 @@ const Sidebar: FC<SidebarProps> = ({ theme, setTheme }) => {
             hashimhasan444@gmail.com
           </p>
           <p className="my-2 text-gray-600 dark:text-gray-300 text-sm">
-            9876543210
+            0324-0251086
           </p>
         </div>
       </div>

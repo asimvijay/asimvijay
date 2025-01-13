@@ -25,7 +25,8 @@
     "react-leaflet": "^5.0.0",
     "react-lottie": "^1.2.10",
     "tailwind-scrollbar-hide": "^2.0.0",
-    "victory": "^37.3.4"
+    "victory": "^37.3.4",
+    "vis-network": "^9.1.9"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -5,6 +5,7 @@ import Right from "./components/Right/page";
 // Import dynamic from next
 import dynamic from "next/dynamic";
 
+
 // Dynamically import Lottie with SSR disabled
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
@@ -77,6 +78,7 @@ export default function Home() {
             {/* Main Content */}
             <div className="lg:col-span-9 col-span-12 bg-white dark:bg-gray-800 rounded-2xl shadow-xl lg:p-4 lg:max-h-[90vh]">
               <Right />
+    
             </div>
           </div>
         </div>
