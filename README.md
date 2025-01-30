@@ -61,8 +61,8 @@ Feel free to ask me about my journey in web development, what excites me about t
 
 # 💻 Tech Stack:
 
-![Skills](https://skillicons.dev/icons?i=aws,rust,androidstudio,angular,astro,azure,bootstrap,css,cloudflare)<br>
-![Skills](https://skillicons.dev/icons?i=discord,django,docker,dotnet,dynamodb,react,nextjs,vercel,ember,express,figma,firebase,flask,flutter,googlecloud,gatsby,git,gitlab,github,gmail,golang,graphql,html,instagram,illustrator,jquery,js,laravel,linkedin,less,mui,mongodb,mysql,nestjs,netlify,nodejs,notion,npm,php,photoshop,prisma,postman,postgresql,pug,python,qt,redux,sqlite,svg,stackoverflow,tailwind,tensorflow,threejs,ts,twitter,vscode,vite,vitest,webpack,webflow,wordpress)
+![Skills](https://skillicons.dev/icons?i=aws,rust,androidstudio,angular)<br>
+![Skills](https://skillicons.dev/icons?i=discord,django,docker,dotnet,dynamodb,react,nextjs,vercel,astro,azure,bootstrap,css,cloudflare,ember,express,figma,firebase,flask,flutter,googlecloud,gatsby,git,gitlab,github,gmail,golang,graphql,html,instagram,illustrator,jquery,js,laravel,linkedin,less,mui,mongodb,mysql,nestjs,netlify,nodejs,notion,npm,php,photoshop,prisma,postman,postgresql,pug,python,qt,redux,sqlite,svg,stackoverflow,tailwind,tensorflow,threejs,ts,twitter,vscode,vite,vitest,webpack,webflow,wordpress)
 
 # 📊 GitHub Stats:
 <table>
