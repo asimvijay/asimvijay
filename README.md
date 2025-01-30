@@ -94,7 +94,7 @@ Feel free to ask me about my journey in web development, what excites me about t
 
 ---
 [![](https://visitcount.itsvg.in/api?id=asimvijay&icon=0&color=0)](https://visitcount.itsvg.in)
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=afzalimdad9&theme=algolia" alt="afzalimdad9" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=asimvijay&theme=algolia" alt="afzalimdad9" /></a> </p>
 
 ## 💰 You can help me by Donating
 
