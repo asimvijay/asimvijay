@@ -5,8 +5,15 @@
 
 
 # 💫 About Me:
-I am currently working on: Online Help Desk System: Centralized platform for managing campus service requests.<br> Flask project for monitoring .<br>Real-time Data Management: Python application with PostgreSQL for efficient data handling.<br><br>
-Feel free to ask me about my journey in web development, what excites me about technology, or how I tackle challenges in my projects..<br><br>
+I'm a passionate MERN Stack Developer with a love for building scalable, user-friendly web applications. I thrive on solving complex problems and turning ideas into reality through code. Currently, I'm working on:<br>
+
+Online Help Desk System: A centralized platform for managing campus service requests.<br>
+
+Real-time Data Management: A Python application with PostgreSQL for efficient data handling.<br>
+
+Flask Monitoring Project: A tool for real-time system monitoring.<br>
+
+I'm always eager to learn and explore new technologies. Feel free to ask me about my journey in web development, my favorite tech stack, or how I approach challenges in my projects.
  <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Let's+Be+Creative" alt="Typing SVG">
 </h1><br>
@@ -26,10 +33,11 @@ Feel free to ask me about my journey in web development, what excites me about t
   <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
 </div>
 
-**Web Development**: HTML, CSS, JavaScript, React, Angular, .NET MVC  
-**Mobile Development**: React Native, Android Studio (Java)  
-**Backend**: Node.js, Flask, Python, PostgreSQL, Firebase  
-**Tools**: Git, Docker, Thunder Client, Bootstrap
+**Web Development**: HTML, CSS, JavaScript, React, Angular, Nextjs, Python(Flask)  
+**Mobile Development**: React Native, Flutter  
+**Backend**: Node.js, Flask, Python,  
+**Tools**: Git, Docker, Thunder Client, Jupyter, PostgreSQL, Firebase <br>
+**Platforms**: Android Studio,Vscode,Visual Studio,Cursor.ai
 
 ---
 <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
@@ -39,8 +47,8 @@ Feel free to ask me about my journey in web development, what excites me about t
   
 </div>
 
-- 🔭 I’m currently Learning **Flutter** 
-- 💬 Ask me about **React, Python, Javascript** 
+- 🔭 I’m currently Learning **Opencv** 
+- 💬 Ask me about **React, Python, Javascript, Flutter, React-Native, Next-js, Nodejs** 
 - 📫 How to reach me **hashimhasan444@gmail.com**
 - ⚡ Fun fact **I enjoy every situation and learn many things** 
 
