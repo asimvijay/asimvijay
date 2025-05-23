@@ -1,9 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Hashim/Portfolio/asimvijay/src/app/page.tsx"],"sourcesContent":["\n\nexport default function Home() {\n  return (\n<div className=\" grid grid-cols-12 gap6 \">\n  <div className=\"lg:col-span-3 bg-white rounded-2xl col-span-12\">Sidebar</div>\n  <div className=\"lg:col-span-9 bg-white rounded-2xl col-span-12\"></div>\n</div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAEe,SAAS;IACtB,qBACF,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAI,WAAU;0BAAiD;;;;;;0BAChE,8OAAC;gBAAI,WAAU;;;;;;;;;;;;AAGjB"}},
-    {"offset": {"line": 38, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":""}},
-    {"offset": {"line": 49, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
-}

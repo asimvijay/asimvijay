@@ -10,7 +10,7 @@ import dynamic from "next/dynamic";
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
 
 // Example animation (replace with your own JSON file)
-import animationData from './animations/earth.json'; 
+import animationData from './animations/earth1.json'; 
 
 export default function Home() {
   const [theme, setTheme] = useState<"light" | "dark">("light");
@@ -51,7 +51,7 @@ export default function Home() {
       {showSplash ? (
         <div
           className={`fixed inset-0 flex items-center justify-center ${
-            theme === "light" ? "bg-gradient-to-r from-green-400 to-blue-400" : "bg-gray-900"
+            theme === "dark" ? "bg-gray-900" : "bg-gradient-to-r from-green-400 to-blue-400 "
           }`}
         >
           <div className="text-center">
