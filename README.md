@@ -33,10 +33,12 @@ I'm always eager to learn and explore new technologies. Feel free to ask me abou
   <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
 </div>
 
-**Web Development**: HTML, CSS, JavaScript, React, Angular, Nextjs, Python(Flask)  
+**AI Development**:(Model Training):Python ,LLMS,LangChain (Agentic Ai): N8N ,AutoGPT, BabyAGI, CrewAI
+**Web Development**: HTML, JavaScript, React, Angular, Nextjs,Remix,  
 **Mobile Development**: React Native, Flutter  
-**Backend**: Node.js, Flask, Python,  
+**Backend**: Node.js, Flask, Python(Flask), Python(Django) ,Python(Fast Api)
 **Tools**: Git, Docker, Thunder Client, Jupyter, PostgreSQL, Firebase <br>
+**Database**:Mongo Db ,Neon Postgres, Mysql, SQL
 **Platforms**: Android Studio,Vscode,Visual Studio,Cursor.ai
 
 ---
