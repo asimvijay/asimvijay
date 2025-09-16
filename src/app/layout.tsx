@@ -34,15 +34,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        {/* Preconnect to Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-
-        {/* Load Google Fonts */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Aboreto&family=Kaushan+Script&display=swap"
-          rel="stylesheet"
-        />
 
         {/* Set the favicon */}
         <link rel="icon" href="/me.ico" type="image/x-icon" />
