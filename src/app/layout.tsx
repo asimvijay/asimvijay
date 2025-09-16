@@ -2,18 +2,9 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import Head from "next/head";
+ 
 
-// Load custom fonts
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+
 
 // SEO Metadata for Hashim's Portfolio
 export const metadata: Metadata = {
@@ -60,7 +51,7 @@ export default function RootLayout({
         <meta name="author" content="Hashim" />
       </Head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900`}
+        className={` antialiased bg-white text-gray-900`}
       >
         {children}
       </body>

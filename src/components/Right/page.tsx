@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Contact from "../Main/contact";
 import Projects from "../Main/projects";
 import Resume from "../Main/resume";
-import About from "../Main/about";
+import About from "../Main/hero";
 
 const RightWithNavbar = () => {
   const [activeComponent, setActiveComponent] = useState("About"); // Default to "About"
