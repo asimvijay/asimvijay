@@ -8,14 +8,14 @@ import About from "../Main/hero";
 
 const RightWithNavbar = () => {
   const [activeComponent, setActiveComponent] = useState("About"); // Default to "About"
-  const [theme, setTheme] = useState<"light" | "dark">("light"); // State for theme
+  const [theme, setTheme] = useState("light"); // State for theme
   const [menuOpen, setMenuOpen] = useState(false); // State to control the hamburger menu
 
   const navItems = ["About", "Resume", "Projects", "Contact"]; // Nav items
 
   // Initialize theme from localStorage
   useEffect(() => {
-    const storedTheme = localStorage.getItem("theme") as "light" | "dark" | null;
+    const storedTheme = localStorage.getItem("theme");
     if (storedTheme) {
       setTheme(storedTheme);
     }

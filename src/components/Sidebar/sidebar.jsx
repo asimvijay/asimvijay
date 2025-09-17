@@ -1,16 +1,10 @@
 "use client";
 import Image from "next/image";
-import { FC } from "react";
 import { AiFillGithub, AiFillLinkedin, AiFillFacebook } from "react-icons/ai";
 import { GoLocation } from "react-icons/go";
 import { GiTie } from "react-icons/gi";
 
-interface SidebarProps {
-  theme: "light" | "dark";
-  setTheme: (theme: "light" | "dark") => void;
-}
-
-const Sidebar: FC<SidebarProps> = ({ theme, setTheme }) => {
+const Sidebar = ({ theme, setTheme }) => {
   const toggleTheme = () => {
     setTheme(theme === "light" ? "dark" : "light");
   };
@@ -25,7 +19,6 @@ const Sidebar: FC<SidebarProps> = ({ theme, setTheme }) => {
       document.body.removeChild(link);
     } catch (error) {
       console.error("Error downloading resume:", error);
-      // Optionally show error to user
       alert("Failed to download resume. Please try again later.");
     }
   };
