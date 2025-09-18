@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=👋+Hi+There!;I'm+Syed+Hashim;A+MERN-STACK+Developer;Ask+Me+Anything" alt="Typing SVG">
+</h1>
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 💫 About Me:
+I'm a passionate MERN Stack Developer with a love for building scalable, user-friendly web applications. I thrive on solving complex problems and turning ideas into reality through code. Currently, I'm working on:<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Online Help Desk System: A centralized platform for managing campus service requests.<br>
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Real-time Data Management: A Python application with PostgreSQL for efficient data handling.<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Flask Monitoring Project: A tool for real-time system monitoring.<br>
 
-## Learn More
+I'm always eager to learn and explore new technologies. Feel free to ask me about my journey in web development, my favorite tech stack, or how I approach challenges in my projects.
+ <h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Let's+Be+Creative" alt="Typing SVG">
+</h1><br>
 
-To learn more about Next.js, take a look at the following resources:
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Any+Questions+❓" alt="Typing SVG">
+ 
+</div>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- What drives you to code beyond just solving problems?
+- How do you stay updated with the latest in MERN stack development?
+- What innovative project are you most proud of?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+<div align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&vCenter=true&width=500&height=70&duration=4000&lines=🔧+Skills&color=FFA500" alt="Typing SVG">
+</div>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**AI Development**:(Model Training):Python ,LLMS,LangChain (Agentic Ai): N8N ,AutoGPT, BabyAGI, CrewAI <br>
+**Web Development**: HTML, JavaScript, React, Angular, Nextjs,Remix,  
+**Mobile Development**: React Native, Flutter  
+**Backend**: Node.js, Flask, Python(Flask), Python(Django) ,Python(Fast Api)
+**Tools**: Git, Docker, Thunder Client, Jupyter, PostgreSQL, Firebase <br>
+**Database**:Mongo Db ,Neon Postgres, Mysql, SQL
+**Platforms**: Android Studio,Vscode,Visual Studio,Cursor.ai
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+<img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Curious+About+Innovations" alt="Typing SVG">
+
+<div align="center">
+  <img align="right" src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="syedmusab125" />
+  
+</div>
+
+- 🔭 I’m currently Learning **Opencv** 
+- 💬 Ask me about **React, Python, Javascript, Flutter, React-Native, Next-js, Nodejs** 
+- 📫 How to reach me **hashimhasan444@gmail.com**
+- ⚡ Fun fact **I enjoy every situation and learn many things** 
+
+
+## 🌐 Socials:
+[![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/KqPSDe2g) 
+&nbsp;&nbsp;
+[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://www.facebook.com/profile.php?id=100079640409737) 
+&nbsp;&nbsp;
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hashim_hasan_) 
+&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/syed-hashim-3324a3325/) 
+&nbsp;&nbsp;
+[![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackexchange.com/users/35169442/zone-hashim)
+&nbsp;&nbsp;
+[![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?logo=portfolio&logoColor=white)](http://hashim-dev.vercel.app/)
+
+
+# 💻 Tech Stack:
+
+![Skills](https://skillicons.dev/icons?i=aws,rust,androidstudio,angular,django,docker)<br>
+![Skills](https://skillicons.dev/icons?i=discord,dotnet,dynamodb,react,nextjs,vercel,astro,azure,bootstrap,css,cloudflare,ember,express,figma,firebase,flask,flutter,googlecloud,gatsby,git,gitlab,github,gmail,golang,graphql,html,instagram,illustrator,jquery,js,laravel,linkedin,less,mui,mongodb,mysql,nestjs,netlify,nodejs,notion,npm,php,photoshop,prisma,postman,postgresql,pug,python,qt,redux,sqlite,svg,stackoverflow,tailwind,tensorflow,threejs,ts,twitter,vscode,vite,vitest,webpack,webflow,wordpress)
+
+# 📊 GitHub Stats:
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=asimvijay&theme=dark&hide_border=false&include_all_commits=false&count_private=false" alt="GitHub Stats">
+      <br/>
+      <img src="https://github-readme-streak-stats.herokuapp.com/?user=asimvijay&theme=dark&hide_border=false" alt="GitHub Streak">
+      <br/>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=asimvijay&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact" alt="Top Languages">
+    </td>
+    <td>
+      <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW9hdGM1ZzBjNzRrNDVlNWpia3lwcG1pNm9waHFkZTFtZWkwc2huZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTcnSWYZvafyhEACBO/giphy.gif" alt="Animated Background" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
+
+### 🔝 Top Contributed Repo
+<table>
+  <tr>
+    <td>
+      <img src="https://github-contributor-stats.vercel.app/api?username=asimvijay&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributed Repo">
+    </td>
+    <td>
+      <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExMnNkOTZscXc3cTBnMWVhMmo0Z2g2NjZjZHh5OXhzbTk1Nmtsdmk5ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lp3GUtG2waC88/giphy.gif" alt="Animated Background" style="max-width: 100%; height: auto;">
+    </td>
+  </tr>
+</table>
+
+---
+[![](https://visitcount.itsvg.in/api?id=asimvijay&icon=0&color=0)](https://visitcount.itsvg.in)
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=asimvijay&theme=algolia" alt="afzalimdad9" /></a> </p>
+
+## 💰 You can help me by Donating
+
+&nbsp;&nbsp;[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/QuestforKnowledge359)
+
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExdGE2cWQwcDhzZXkxNjF1bno5OXZod2hoam55NzNzOHZsdGZ5NGxoeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/916t1VsCg2qoo/giphy.gif" alt="Animated Background" style="display: block; margin-left: auto; margin-right: auto; width: 50%;">
+

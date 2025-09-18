@@ -28,7 +28,8 @@ export default function Home() {
   }, [darkMode]);
 
   return (
-    <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'dark bg-gray-900' : 'bg-white'}`}>
+  <div className={`min-h-screen transition-colors duration-300 ${darkMode ? 'bg-gray-900' : 'bg-white'}`}>
+
       <Head>
         <title>Software Engineer Portfolio</title>
         <meta name="description" content="Software Engineer Portfolio" />

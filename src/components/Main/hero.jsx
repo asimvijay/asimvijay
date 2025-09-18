@@ -19,7 +19,7 @@ export default function Hero({ darkMode, setDarkMode }) {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <h1 className="text-4xl md:text-6xl font-bold mb-4 dark:text-white">Alex Johnson</h1>
+          <h1 className="text-4xl md:text-6xl font-bold mb-4 dark:text-white">Syed Muhammad Hashim Hasan</h1>
           <h2 className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-6">Full-Stack Software Engineer</h2>
           <p className="text-lg text-gray-500 dark:text-gray-400 max-w-2xl mx-auto">
             Creating digital solutions that bridge design and technology
@@ -49,18 +49,18 @@ export default function Hero({ darkMode, setDarkMode }) {
           <div className="absolute inset-0 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full shadow-xl"></div>
         <div className="absolute inset-4 bg-gray-200 dark:bg-gray-800 rounded-full overflow-hidden">
           <Image
-            src="/images/me.jpg" // ✅ replace with your actual image path (e.g., in /public folder)
+            src="/images/po1.jpg" // ✅ replace with your actual image path (e.g., in /public folder)
             alt="Profile Picture"
             layout="fill"
             objectFit="cover"
-            className="rounded-full"
+            className="rounded-full "
           />
         </div>
         </motion.div>
 
         <button
           onClick={() => setDarkMode(!darkMode)}
-          className="mt-12 p-3 rounded-full bg-gray-200 dark:bg-gray-700 transition-colors duration-300"
+          className="mt-12 p-3 rounded-full bg-gray-200  dark:bg-gray-700 transition-colors duration-300"
           aria-label="Toggle dark mode"
         >
           {darkMode ? (
