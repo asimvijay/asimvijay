@@ -1,175 +1,184 @@
-'use client';
+
+// components/About.js
 import { motion } from 'framer-motion';
-import Image from 'next/image';
-import { useState } from 'react';
 
-const skills = [
-  { category: 'AI & Machine Learning', items: ['Autonomous Agents', 'GPT Integration', 'Computer Vision', 'Neural Networks'] },
-  { category: 'Frontend Development', items: ['React/Next.js', 'TypeScript', 'Three.js', 'Tailwind CSS'] },
-  { category: 'Backend & Infrastructure', items: ['Node.js', 'Python', 'AWS', 'Database Design'] },
-];
+export default function About() {
+  const timeline = [
+    {
+      year: '2021 - Present',
+      title: 'Software Engineer',
+      company: 'Crop2x pvt Ltd',
+      description: 'Leading full-stack development projects for enterprise clients.',
+    },
+    {
+      year: '2024 - Present',
+      title: 'Software Engineer/Research Assistant(RA)',
+      company: 'NCAI NEDUET SMART CITY LAB',
+      description:
+        'Developed software applications using React, React-native, Nextjs, Flutter, Node.js, Python, and cloud technologies.',
+    },
+    {
+      year: '2023 - 2024',
+      title: 'Software Paid Intern',
+      company: 'NCAI NEDUET SMART CITY LAB',
+      description: 'Built responsive websites and e-commerce solutions for various clients.',
+    },
+    {
+      year: '2023 - 2025',
+      title: 'Higher Diploma In Software Engineering(HDSE)',
+      company: 'Aptech Pakistan',
+      description: 'Graduated with honors. Specialized in software engineering and AI.',
+    },
+    {
+      year: '2023 - 2027',
+      title: "Bachelor's In Business Administration(BBA)",
+      company: 'Aptech Pakistan',
+      description: 'Graduated with honors. Specialized in business building strategies, accounting.',
+    },
+    {
+      year: '2025 - 2026',
+      title: "Certified Agentic AI Specialist",
+      company: 'PIAIC',
+      description: 'Graduated with honors. Specialized in software engineering and Agentic AI, Model training, Data scietntist.',
+    },
+  ];
 
-const timeline = [
-  { 
-    year: '2023', 
-    event: 'Started specializing in AI agent development',
-    icon: '🤖'
-  },
-  { 
-    year: '2024', 
-    event: 'Launched first production-ready autonomous agent',
-    icon: '🚀'
-  },
-  { 
-    year: '2025', 
-    event: 'Expanded into immersive 3D web experiences',
-    icon: '✨'
-  },
-];
-
-export default function AboutSection() {
-  const [isPlaying, setIsPlaying] = useState(false);
-
-  const handleVoicePlay = () => {
-    setIsPlaying(true);
-    // Add your voice playback logic here
-    setTimeout(() => setIsPlaying(false), 3000);
-  };
+  const certificates = [
+    {
+      year: '2025-2026',
+      title: 'Agentic AI Certification',
+      issuer: 'PIAIC',
+      description:
+        'Completed 1.5 years of training in Agentic AI with certification from piaic.',
+    },
+    {
+      year: '2024',
+      title: 'Internship Completion in Software Engineering',
+      issuer: 'RCAI Lab',
+      description: 'Successfully completed a professional internship in software engineering.',
+    },
+    {
+      year: '2020',
+      title: 'Computer Vision Web Development',
+      issuer: 'Independent Project',
+      description:
+        'Gained hands-on experience in building and deploying computer vision applications for the web.',
+    },
+  ];
 
   return (
-    <section className="py-10 lg:py-32 text-white " id="about">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header Section */}
-        <motion.div
-          initial={{ opacity: 0, y: 40 }}
+    <section id="about" className="py-20 px-4 ">
+      <div className="max-w-6xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="text-3xl md:text-4xl font-bold text-center mb-16 dark:text-white"
         >
-          <h2 className="text-4xl lg:text-5xl font-bold bg-gradient-to-r from-white to-purple-200 bg-clip-text text-transparent mb-6">
-            About Me
-          </h2>
-          <p className="text-gray-300 text-lg lg:text-xl leading-relaxed max-w-4xl mx-auto">
-            I'm a <span className="text-white font-semibold">Software Engineer</span> specializing in building 
-            fully autonomous AI agents and immersive web experiences. I combine cutting-edge AI with 
-            elegant design to create solutions that think, adapt, and evolve.
-          </p>
-        </motion.div>
+          About Me
+        </motion.h2>
 
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 mb-20">
-          {/* Timeline */}
+        {/* ✅ Make both sides equal height */}
+        <div className="grid md:grid-cols-2 gap-12 items-stretch">
+          {/* Left column */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
+            initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="flex flex-col justify-between"
           >
-            <h3 className="text-2xl font-semibold mb-8 flex items-center">
-              <span className="w-2 h-6 bg-purple-500 rounded-full mr-3"></span>
-              My Journey
-            </h3>
-            <div className="space-y-6">
-              {timeline.map((item, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.2 }}
-                  className="flex gap-4 group cursor-pointer"
-                >
-                  <div className="flex flex-col items-center">
-                    <div className="w-12 h-12 rounded-full bg-purple-600 flex items-center justify-center group-hover:bg-purple-500 transition-colors">
-                      <span className="text-lg">{item.icon}</span>
-                    </div>
-                    <div className="w-0.5 h-full bg-purple-500 mt-2"></div>
+<div>
+  <h3 className="text-2xl font-semibold mb-6 dark:text-white">
+    Biography
+  </h3>
+  <p className="text-gray-600 dark:text-gray-300 mb-4">
+    I'm a dedicated Software Engineer and Research Assistant with strong expertise in 
+    full-stack development, artificial intelligence, and cloud technologies. Over the years, 
+    I’ve contributed to impactful projects at <span className="font-semibold">Crop2x Pvt Ltd</span> and 
+    <span className="font-semibold"> NCAI NEDUET SMART CITY Lab</span>, where I worked on 
+    developing scalable solutions in web, mobile, and AI-powered systems.
+  </p>
+  <p className="text-gray-600 dark:text-gray-300 mb-4">
+    My technical toolkit includes React, Next.js, React Native, Flutter, Node.js, and Python, 
+    alongside experience with cloud services and research-driven applications. 
+    I thrive in environments that challenge me to solve complex problems while delivering 
+    clean, maintainable, and user-focused solutions.
+  </p>
+  <p className="text-gray-600 dark:text-gray-300">
+    Beyond coding, I’m passionate about continuous learning, innovation, and exploring 
+    the intersection of AI and real-world applications. I aspire to build technologies that 
+    not only solve problems but also create meaningful impact on society.
+  </p>
+</div>
+
+
+            {/* Certificates Section */}
+            <div>
+              <h3 className="text-2xl font-semibold mt-12 mb-6 dark:text-white">
+                Certificates
+              </h3>
+              <div className="space-y-8">
+                {certificates.map((cert, index) => (
+                  <div
+                    key={index}
+                    className="relative pl-8 border-l-2 border-indigo-500 dark:border-indigo-400"
+                  >
+                    <div className="absolute -left-2 top-0 w-4 h-4 bg-indigo-500 dark:bg-indigo-400 rounded-full"></div>
+                    <span className="text-sm text-indigo-600 dark:text-indigo-400">
+                      {cert.year}
+                    </span>
+                    <h4 className="text-lg font-semibold mt-1 dark:text-white">
+                      {cert.title}
+                    </h4>
+                    <p className="text-gray-500 dark:text-gray-400 font-medium">
+                      {cert.issuer}
+                    </p>
+                    <p className="text-gray-600 dark:text-gray-300 mt-2">
+                      {cert.description}
+                    </p>
                   </div>
-                  <div className="flex-1 pb-6">
-                    <p className="text-purple-400 font-semibold text-lg">{item.year}</p>
-                    <p className="text-gray-300 mt-1">{item.event}</p>
-                  </div>
-                </motion.div>
-              ))}
+                ))}
+              </div>
             </div>
           </motion.div>
 
-          {/* Skills */}
+          {/* Right column */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
+            initial={{ opacity: 0, x: 20 }}
             whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5 }}
+            className="flex flex-col justify-between"
           >
-            <h3 className="text-2xl font-semibold mb-8 flex items-center">
-              <span className="w-2 h-6 bg-purple-500 rounded-full mr-3"></span>
-              Technical Expertise
+            <h3 className="text-2xl font-semibold mb-6 dark:text-white">
+              Experience & Education
             </h3>
-            <div className="space-y-6">
-              {skills.map((skillGroup, index) => (
-                <motion.div
+            <div className="space-y-8">
+              {timeline.map((item, index) => (
+                <div
                   key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
-                  className="bg-neutral-800/50 rounded-xl p-6 backdrop-blur-sm border border-neutral-700 hover:border-purple-500/30 transition-all"
+                  className="relative pl-8 border-l-2 border-indigo-500 dark:border-indigo-400"
                 >
-                  <h4 className="text-white font-semibold mb-3 text-lg">{skillGroup.category}</h4>
-                  <div className="flex flex-wrap gap-2">
-                    {skillGroup.items.map((skill, skillIndex) => (
-                      <span
-                        key={skillIndex}
-                        className="px-3 py-1 bg-purple-600/20 text-purple-300 rounded-full text-sm border border-purple-500/30"
-                      >
-                        {skill}
-                      </span>
-                    ))}
-                  </div>
-                </motion.div>
+                  <div className="absolute -left-2 top-0 w-4 h-4 bg-indigo-500 dark:bg-indigo-400 rounded-full"></div>
+                  <span className="text-sm text-indigo-600 dark:text-indigo-400">
+                    {item.year}
+                  </span>
+                  <h4 className="text-lg font-semibold mt-1 dark:text-white">
+                    {item.title}
+                  </h4>
+                  <p className="text-gray-500 dark:text-gray-400 font-medium">
+                    {item.company}
+                  </p>
+                  <p className="text-gray-600 dark:text-gray-300 mt-2">
+                    {item.description}
+                  </p>
+                </div>
               ))}
             </div>
           </motion.div>
         </div>
-
-        {/* Stats */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12"
-        >
-          <div className="bg-neutral-800/30 rounded-2xl p-6 text-center backdrop-blur-sm border border-neutral-700 hover:border-purple-500/30 transition-all">
-            <p className="text-4xl font-bold text-white mb-2">30+</p>
-            <p className="text-gray-400 text-sm">AI Agents Developed</p>
-          </div>
-          <div className="bg-neutral-800/30 rounded-2xl p-6 text-center backdrop-blur-sm border border-neutral-700 hover:border-purple-500/30 transition-all">
-            <p className="text-4xl font-bold text-white mb-2">100K+</p>
-            <p className="text-gray-400 text-sm">Lines of Code Written</p>
-          </div>
-          <div className="bg-neutral-800/30 rounded-2xl p-6 text-center backdrop-blur-sm border border-neutral-700 hover:border-purple-500/30 transition-all">
-            <p className="text-4xl font-bold text-white mb-2">12+</p>
-            <p className="text-gray-400 text-sm">Projects Delivered</p>
-          </div>
-        </motion.div>
-
-        {/* Voice Introduction */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="text-center"
-        >
-          <button
-            onClick={handleVoicePlay}
-            disabled={isPlaying}
-            className={`px-8 py-4 rounded-xl font-semibold transition-all flex items-center justify-center gap-3 mx-auto ${
-              isPlaying
-                ? 'bg-purple-700 cursor-not-allowed'
-                : 'bg-purple-600 hover:bg-purple-500 hover:scale-105'
-            }`}
-          >
-            <span className={`w-6 h-6 ${isPlaying ? 'animate-pulse' : ''}`}>
-              {isPlaying ? '🔊' : '▶️'}
-            </span>
-            {isPlaying ? 'Playing Introduction...' : 'Play AI Introduction'}
-          </button>
-        </motion.div>
       </div>
     </section>
   );
