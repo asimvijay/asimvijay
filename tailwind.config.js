@@ -1,13 +1,14 @@
-/** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class", // <-- important
-  content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
   theme: {
-    extend: {},
+    extend: {
+      boxShadow: {
+        neon: '0 0 10px #0ff, 0 0 20px #0ff',
+      },
+      colors: {
+        'neon-cyan': '#00ffff',
+        'neon-pink': '#ff00ff',
+         neon: '#00ffe0',
+      },
+    },
   },
-  plugins: [],
 };
