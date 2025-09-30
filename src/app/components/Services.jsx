@@ -5,23 +5,23 @@ import { Cpu, BrainCircuit, Bot, Code2 } from 'lucide-react';
 const services = [
   {
     icon: <Cpu size={28} />,
-    title: 'Autonomous Agents',
-    desc: 'Custom-built AI agents that think, act, and learn on your behalf.',
+    title: 'AI & Autonomous Agents',
+    desc: 'I design and build intelligent agents that can analyze data, make decisions, and automate workflows.',
   },
   {
     icon: <BrainCircuit size={28} />,
-    title: 'AI Strategy & Consulting',
-    desc: 'We help align AI with your business goals using strategic intelligence.',
+    title: 'Software Engineering',
+    desc: 'Full-stack development expertise in React, Next.js, ASP.NET Core, and scalable backend systems.',
   },
   {
     icon: <Bot size={28} />,
-    title: 'AI-Powered Products',
-    desc: 'We build futuristic, scalable AI tools that delight users.',
+    title: 'Agentic Workflows',
+    desc: 'I specialize in creating agentic systems that connect APIs, automate tasks, and enhance productivity.',
   },
   {
     icon: <Code2 size={28} />,
     title: 'MLOps & Deployment',
-    desc: 'From model training to cloud deployment, we handle the full lifecycle.',
+    desc: 'Experience in training, optimizing, and deploying ML models with seamless cloud integration.',
   },
 ];
 
@@ -50,7 +50,7 @@ export default function ServicesSection() {
         className="max-w-7xl mx-auto text-white"
       >
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center text-neon drop-shadow-[0_0_0.3rem_#00ffe0]">
-          Our Capabilities
+          What I Do
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">

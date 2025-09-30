@@ -169,6 +169,7 @@ export default function Home() {
       <motion.div ref={parallaxRef} style={{ y }}>
         <Navbar />
         <Hero />
+        <AboutSection />
         <FeaturesSectionDemo />
         <ComitCart />
         <AIHead />
@@ -177,7 +178,6 @@ export default function Home() {
         {/* Services and Projects Sections */}
         <ServicesSection />
         <ProjectsShowcase />
-        <AboutSection />
       </motion.div>
 
       {/* Grid Overlay */}

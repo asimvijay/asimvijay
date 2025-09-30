@@ -7,7 +7,7 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const projects = [
   {
-    title: 'Crop2x – Satellite Farming System',
+    title: 'Satellite Farming System',
     desc: 'Real-time NDVI & crop monitoring system powered by satellite data, Google Earth Engine, and AI visual reports.',
     img: '/images/Cropsmart.png',
     link: '#',
@@ -38,13 +38,11 @@ const projects = [
   },
 ];
 
-
 const cardVariants = {
   hidden: { opacity: 0, scale: 0.95, y: 40 },
   show: { opacity: 1, scale: 1, y: 0 },
 };
 
-// ✅ circular slicing function
 const getVisibleProjects = (arr, startIndex, count) => {
   const result = [];
   for (let i = 0; i < count; i++) {
@@ -57,9 +55,9 @@ export default function ProjectsShowcase() {
   const [index, setIndex] = useState(0);
   const [visibleCount, setVisibleCount] = useState(3);
 
-  // detect number of cards to show
   useEffect(() => {
     const updateVisibleCount = () => {
+      console.log('Window width:', window.innerWidth, 'Visible count:', visibleCount);
       if (window.innerWidth < 640) setVisibleCount(1);
       else if (window.innerWidth < 1024) setVisibleCount(2);
       else setVisibleCount(3);
@@ -68,7 +66,7 @@ export default function ProjectsShowcase() {
     updateVisibleCount();
     window.addEventListener('resize', updateVisibleCount);
     return () => window.removeEventListener('resize', updateVisibleCount);
-  }, []);
+  }, [visibleCount]); // Add visibleCount to dependency array for debugging
 
   const prevSlide = () => {
     setIndex((prev) => (prev - 1 + projects.length) % projects.length);
@@ -78,19 +76,17 @@ export default function ProjectsShowcase() {
     setIndex((prev) => (prev + 1) % projects.length);
   };
 
-  // auto scroll
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % projects.length);
-    }, 4000); // every 4s
+    }, 4000);
     return () => clearInterval(interval);
   }, []);
 
-  // always get wrapped slice
   const visibleProjects = getVisibleProjects(projects, index, visibleCount);
 
   return (
-    <section id="projects" className="py-10 px-6 md:px-20 relative ">
+    <section id="projects" className="py-10 px-6 md:px-20 relative">
       <motion.div
         initial="hidden"
         whileInView="show"
@@ -101,24 +97,22 @@ export default function ProjectsShowcase() {
           Featured Projects
         </h2>
 
-        {/* Arrows */}
-          <button
-            onClick={prevSlide}
-            className="absolute ml-[-5vw] top-[35vh] -translate-y-1/2 hidden lg:block bg-black/40 p-3 rounded-full hover:bg-black/70 z-10"
-          >
-            <ChevronLeft className="w-6 h-6 text-white" />
-          </button>
+        <button
+          onClick={prevSlide}
+          className="absolute ml-[-5vw] top-[35vh] -translate-y-1/2 hidden lg:block bg-black/40 p-3 rounded-full hover:bg-black/70 z-10"
+        >
+          <ChevronLeft className="w-6 h-6 text-white" />
+        </button>
 
-          <button
-            onClick={nextSlide}
-            className="absolute ml-[61vw] top-[35vh] -translate-y-1/2 hidden lg:block bg-black/40 p-3 rounded-full hover:bg-black/70 z-10"
-          >
-            <ChevronRight className="w-6 h-6 text-white" />
-          </button>
+        <button
+          onClick={nextSlide}
+          className="absolute ml-[61vw] top-[35vh] -translate-y-1/2 hidden lg:block bg-black/40 p-3 rounded-full hover:bg-black/70 z-10"
+        >
+          <ChevronRight className="w-6 h-6 text-white" />
+        </button>
 
-        {/* Carousel */}
         <div
-          className="mt-20 grid lg:ml-[-2vw] ml-[-17vw] gap-6"
+          className="mt-20 grid gap-6 ml-[-2vw] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
           style={{ gridTemplateColumns: `repeat(${visibleCount}, 1fr)` }}
         >
           {visibleProjects.map((project, idx) => (
