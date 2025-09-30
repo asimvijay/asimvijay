@@ -41,7 +41,7 @@ const cardVariants = {
 
 export default function ServicesSection() {
   return (
-    <section id="services" className="py-28 px-6 md:px-20">
+    <section id="services" className="py-10 px-6 md:px-20">
       <motion.div
         initial="hidden"
         whileInView="show"

@@ -39,7 +39,7 @@ const cardVariants = {
 
 export default function ProjectsShowcase() {
   return (
-    <section id="projects" className=" md:px-20 my-20">
+    <section id="projects" className=" md:px-20 ">
       <motion.div
         initial="hidden"
         whileInView="show"
